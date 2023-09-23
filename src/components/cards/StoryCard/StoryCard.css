@@ -46,3 +46,14 @@
   width: 85%;
 }
 /* front intro End */
+
+@media screen and (max-width:500px) {
+  .front-intro{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .content,
+  .image-wrap {
+    width: 100%;
+  }
+}

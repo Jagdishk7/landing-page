@@ -84,3 +84,17 @@ border: none;
   transition: 0.5s;
   z-index: 1;
 }
+
+@media screen and (max-width:500px) {
+  .contact-card {
+    width: 90%;
+    height: 55rem;
+    margin: 0 auto;
+  }
+  .contact-card .heading{
+    font-size: 1.8rem;
+  }
+  .contact-card .heading2{
+    font-size: 1.8rem;
+  }
+}

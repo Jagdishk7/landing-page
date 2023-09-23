@@ -8,6 +8,7 @@ import RatingCard from "../../components/cards/RatingCard";
 import Card3 from "../../components/cards/Card3";
 import Contact1 from "../../components/cards/contact/Contact1";
 import Contact2 from "../../components/cards/contact/Contact2";
+import Footer from "../../components/Footer/Footer";
 
 const LandingPage = () => {
   return (
@@ -183,6 +184,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </>
   );
 };

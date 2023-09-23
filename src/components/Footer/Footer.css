@@ -46,30 +46,32 @@ li {
 
 /* navbar style start  */
 
-.main-nav {
+.main-footer {
   position: sticky;
   top: 0;
-  background-color: #fff;
-  height: 7rem;
+  background-color: #2a2a2a;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   padding: 0 5rem;
   z-index: 99;
 }
 
 
-.logo {
-  font-size: 2.3rem;
+.main-footer .logo {
+  font-size: 1.5rem;
   font-weight: 600;
+  color: #787878;
 }
-.menu-link {
+.footer-link {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.menu-link > ul {
+.footer-link > ul {
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -77,22 +79,23 @@ li {
   gap: 1.5rem;
 }
 
-.menu-link > ul li {
-  font-size: 1.5rem;
+.footer-link > ul li {
+  font-size: 2rem;
   position: relative;
   padding: auto 0;
 }
-.link-active{
+.main-footer .link-active{
   font-weight: 700;
+  color: #b4b4b4;
 }
 
-.menu-link > ul li a {
+.footer-link > ul li a {
   text-transform: capitalize;
-  color: black;
+  color: #b4b4b4;
   transition: 0.5s;
   font-family: "Josefin Sans", sans-serif;
 }
-.menu-link > ul li a::after {
+.footer-link > ul li a::after {
   content: "";
   width: 0;
   height: 3px;
@@ -103,83 +106,28 @@ li {
   transition: 0.5s;
 }
 
-.menu-link > ul li a:hover::after {
+.footer-link > ul li a:hover::after {
   width: 100%;
 }
 
-.hamburger-menu {
-  display: none;
-}
 
 /* responsive css style  */
-@media (max-width: 1080px) {
-  .main-nav {
-    height: 8rem;
-  }
-
-  .menu-link > ul {
-    height: 8rem;
-  }
-}
-
 /* responsive css style  */
 @media (max-width: 998px) {
-  .logo img {
-    width: 5rem;
-  }
-  .menu-link {
-    display: none;
-  }
 
-  .mobile-menu-link {
-    position: absolute;
-    top: 6rem;
-    left: 0;
-    background-color: #ffffff;
-    height: 35rem;
-    width: 100vw;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    padding: 2rem 1rem;
-    z-index: 99;
-  }
 
-  .mobile-menu-link > ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .btn-container {
-    width: 220px;
-  }
-  .hamburger-menu {
-    color: #f96926;
-    display: inline;
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 798px) {
-  .main-nav {
-    height: 6rem;
+  .main-footer {
     padding: 0.5rem;
   }
   .btn-container button {
     font-size: 0.6rem;
   }
-
-  .hamburger-menu {
-    display: block;
-  }
 }
 
 @media (max-width: 520px) {
-  .main-nav {
-    height: 6rem;
-  }
-  .menu-link > ul li {
-    font-size: 1.3rem;
-  }
+
 }

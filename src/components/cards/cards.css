@@ -46,6 +46,9 @@ margin-top: 2rem;
     font-size: 2rem;
     color: #ffa657;
   }
+  .rating-card .row{
+    flex-direction: row;
+  }
   .rating-card .bottom-text{
     font-size: 1.5rem;
     font-weight: 600;
@@ -88,4 +91,10 @@ margin-top: 2rem;
   }
   .card3-content p {
     font-size: 1.3rem;
+  }
+
+  @media screen and (max-width:500px) {
+    .icon-text-card{
+      width: 100%;
+        }
   }

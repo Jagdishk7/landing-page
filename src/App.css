@@ -215,3 +215,9 @@ button {
 .bg-sb {
   background-color: #f0f0f0;
 }
+
+@media screen and (max-width:800px) {
+  .row{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,86 @@
+.contact-card {
+  width: 40rem;
+  height: 60rem;
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #1d1d1d;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-card .upper {
+  margin-bottom: 4rem;}
+.contact-card .column {
+  gap: 0;
+}
+.contact-card .btn2 {
+  margin-top: 1rem;
+
+}
+.contact-card .heading {
+  font-family: "Source Serif 4", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+.contact-card .heading2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+.contact-card p {
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+.contact-card .para2 {
+  font-size: 1.5rem;
+  color: #bbbbbb;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+.contact-card .btn2 {
+  font-size: 1.3rem;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+.contact-form .btn2{
+text-align: center;  width: 100%;
+}
+.contact-form input {
+background-color: #0d0d0d;
+width: 100%;
+font-size: 1.3rem;
+padding: 1.1rem;
+font-weight: 600;
+outline: none;
+border: none;
+}
+.bottom-line {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+.bottom-line::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #ffb453af;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+  z-index: 1;
+}

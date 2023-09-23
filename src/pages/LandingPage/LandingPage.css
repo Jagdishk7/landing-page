@@ -1,0 +1,109 @@
+.fresh-ingredients {
+}
+.fresh-ingredients {
+  position: relative;
+  z-index: 1;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+.fresh-ingredients .heading1::after {
+  margin-left: 1.8rem;
+}
+.fresh-ingredients h1 {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+.fresh-ingredients p {
+  color: #515151;
+  max-width: 70%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.fresh-ingredients .btn2 {
+}
+.fresh-ingredients .btn2:hover {
+  color: black;
+}
+
+
+
+.card-image-container .row{
+gap: 0;}
+.card-image-container img{
+width: 33%;
+}
+
+
+
+.testimonials .content > .heading1::after{
+  margin-left: 2rem;
+}
+.testimonials .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.dont-miss{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dont-miss .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.dont-miss .content > p{
+ max-width: 70%;
+ font-size: 1.5rem;
+ margin-bottom: 3rem;
+ text-align: center;
+}
+.dont-miss .btn2{
+ margin-top: 7rem;
+}
+.dont-miss .btn2:hover{
+color: #000;}
+
+/* contact ============================================= */
+#contact-section {
+  background-image: url(../../../public/assets/fruits/hero.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.75;
+  z-index: -1;
+}
+.contact-section .row {
+  gap: 5rem;
+}
+

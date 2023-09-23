@@ -1,0 +1,48 @@
+/* front intro Start */
+
+.front-intro {
+  width: 90%;
+  padding: 2rem;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  width: 50%;
+  padding: 2rem;
+}
+.content .heading1{
+    width: 10rem;
+}
+.content .heading1::after{
+    margin-left: 0;
+}
+.content h1 {
+  font-family: "Source Serif 4", serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+.content p {
+  font-size: 1.7rem;
+  color: #747474;
+}
+.headline {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.image-wrap {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.image-wrap img {
+  width: 85%;
+}
+/* front intro End */

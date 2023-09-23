@@ -1,38 +1,217 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200;8..60,300;8..60,400;8..60,500;8..60,600;8..60,700;8..60,800;8..60,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --direction: ltr;
+  --direction-alt: rtl;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+.btn1 {
+  height: fit-content;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 1px solid #ffb453af;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+.btn1:hover {
+  color: white;
+  background-color: #ffb453af;
+  color: #222;
+  cursor: pointer;
+  border: 1px solid #ffb453af;
+}
+.btn2 {
+  height: fit-content;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #ffb453af;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease;
+  border: 1px solid #ffb453af;
+
+  transition-property: background-color, color;
+}
+.btn2:hover {
+  border: 1px solid #ffb453af;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.heading1 {
+  text-transform: uppercase;
+  color: black;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 2rem;
+  width: 10rem;
+}
+.heading1::after {
+  content: "";
+  width: 55%;
+  height: 4px;
+  margin-left: 1.8rem;
+  background: #ffb453af;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.wh-150 {
+  width: 150px !important;
+  height: 150px !important;
+}
+.wh-300 {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.w-85 {
+  width: 87vw;
+}
+
+.bg-green {
+  background-color: #45e645ee;
+}
+.bg-cyan {
+  background-color: #1de7ccc5;
+}
+.bg-leafgreen {
+  background-color: #93bd21;
+}
+.bg-green {
+  background-color: #45e645ee;
+}
+.bg-grey {
+  background-color: #666666;
+}
+
+.text-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.center {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jcc {
+  display: flex;
+  justify-content: center;
+}
+.jcsb {
+  display: flex;
+  justify-content: space-between;
+}
+.jcse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aic {
+  display: flex;
+  align-items: center;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+.cta:hover {
   color: white;
+  background-color: #ff6a6a;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.container {
+  padding: 10px 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section {
+  padding: 3rem 0;
+}
+.para1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+.bold{
+  font-weight: bold;
+}
+/*  =============== margins ===================================== */
+
+.mtb-3 {
+  margin: 3rem 0;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.bg-sb {
+  background-color: #f0f0f0;
 }
